@@ -1,0 +1,6 @@
+store/
+test/
+dist/
+build/
+__pycache__/
+zxing/
