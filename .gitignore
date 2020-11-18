@@ -4,3 +4,7 @@ dist/
 build/
 __pycache__/
 zxing/
+images/
+barcode_reader_codabar.py
+zxing.spec
+barcode_reader.spec

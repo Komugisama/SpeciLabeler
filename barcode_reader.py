@@ -1,7 +1,7 @@
 '''
 Author: chentx
 Date: 2020-11-06 16:28:35
-LastEditTime: 2020-11-18 15:24:48
+LastEditTime: 2020-11-18 17:05:40
 LastEditors: chentx
 Description: 植物标本照片条码识别工具，使用ZBAR解码（不支持PE等标本馆使用的CODABAR编码）
 '''
