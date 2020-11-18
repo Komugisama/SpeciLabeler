@@ -1,0 +1,154 @@
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-12 17:15:31
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : 00934149.jpg
+mass.png ：barcode not found
+pe2.jpg : [WinError 183] 当文件已存在时，无法创建该文件。: 'C:/Komugi/Projects/python/barcode_reader/test\\pe2.jpg' -> 'C:/Komugi/Projects/python/barcode_reader/test\\00934149.jpg'
+
+finished at 2020-11-12 17:16:20, 8 success, 2 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-12 17:31:32
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : 00934149.jpg
+mass.png ：barcode not found
+pe2.jpg : [WinError 183] 当文件已存在时，无法创建该文件。: 'C:/Komugi/Projects/python/barcode_reader/test\\pe2.jpg' -> 'C:/Komugi/Projects/python/barcode_reader/test\\00934149.jpg'
+
+finished at 2020-11-12 17:32:19, 8 success, 2 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-17 18:01:16
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : barcode not found
+mass.png : barcode not found
+pe2.jpg : barcode not found
+
+finished at 2020-11-17 18:01:25, 7 success, 3 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-17 18:28:47
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : barcode not found
+mass.png : barcode not found
+pe2.jpg : barcode not found
+
+finished at 2020-11-17 18:28:57, 7 success, 3 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-17 18:37:24
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : barcode not found
+mass.png : barcode not found
+pe2.jpg : barcode not found
+
+finished at 2020-11-17 18:37:33, 7 success, 3 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-18 14:53:37
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : barcode not found
+mass.png : barcode not found
+pe2.jpg : barcode not found
+
+finished at 2020-11-18 14:53:47, 7 success, 3 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-18 15:18:38
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : can only concatenate tuple (not "str") to tuple
+mass.png : can only concatenate tuple (not "str") to tuple
+pe2.jpg : can only concatenate tuple (not "str") to tuple
+_MG_1547.JPG : can only concatenate tuple (not "str") to tuple
+
+finished at 2020-11-18 15:18:48, 7 success, 4 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/test
+start at 2020-11-18 15:21:08
+
+00006885.JPG : 00006885.JPG
+00006886.JPG : 00006886.JPG
+00006887.JPG : 00006887.JPG
+00006888.JPG : 00006888.JPG
+00006889.JPG : 00006889.JPG
+00006890.JPG : 00006890.JPG
+00006891.JPG : 00006891.JPG
+00934149.jpg : barcode not found
+mass.png : barcode not found
+pe2.jpg : barcode not found
+_MG_1547.JPG : can not open image
+
+finished at 2020-11-18 15:21:17, 7 success, 4 failed
+
+
+
+

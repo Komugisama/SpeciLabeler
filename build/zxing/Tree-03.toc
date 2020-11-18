@@ -1,0 +1,5 @@
+('C:\\Komugi\\Projects\\python\\barcode_reader\\build\\zxing\\pyzxing-0.3.2-py3.7.egg',
+ None,
+ {'*.pyd', '*.pyc', '*.pyw', 'EGG-INFO', '*.cp37-win32.pyd', '*.py'},
+ 'DATA',
+ [])
