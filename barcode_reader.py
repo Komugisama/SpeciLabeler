@@ -1,7 +1,7 @@
 '''
 Author: chentx
 Date: 2020-11-06 16:28:35
-LastEditTime: 2020-11-18 17:05:40
+LastEditTime: 2020-11-19 11:28:17
 LastEditors: chentx
 Description: 植物标本照片条码识别工具，使用ZBAR解码（不支持PE等标本馆使用的CODABAR编码）
 '''
@@ -10,6 +10,8 @@ import tkinter as tk
 from tkinter import filedialog
 import pyzbar.pyzbar as pyzbar
 from PIL import Image
+from PIL import ImageFile
+ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 def getBarcode(path):
     try:
@@ -24,8 +26,8 @@ def getBarcode(path):
     else:
         return False, 'barcode not found'
 
-print("植物标本照片条码识别工具 Beta 0.0.3")
-print("作者：陈天翔 chentx@ibcas.ac.cn 2020-11-18\n")
+print("植物标本照片条码识别工具 Beta 0.0.4")
+print("作者：陈天翔 chentx@ibcas.ac.cn 2020-11-19\n")
 
 print("选择待处理文件夹")
 root = tk.Tk()
