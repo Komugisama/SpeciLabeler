@@ -2,5 +2,5 @@
 ### Rename plant specimens image with barcode!
 ```
 pip install pyzbar
-python barcode-reader.py
+python barcode_reader.py
 ```
