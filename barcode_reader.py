@@ -1,7 +1,7 @@
 '''
 Author: chentx
 Date: 2020-11-06 16:28:35
-LastEditTime: 2020-11-19 11:28:17
+LastEditTime: 2022-04-20 14:10:28
 LastEditors: chentx
 Description: 植物标本照片条码识别工具，使用ZBAR解码（不支持PE等标本馆使用的CODABAR编码）
 '''
@@ -11,13 +11,14 @@ from tkinter import filedialog
 import pyzbar.pyzbar as pyzbar
 from PIL import Image
 from PIL import ImageFile
+Image.MAX_IMAGE_PIXELS = 240000000
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 def getBarcode(path):
-    try:
-        img = Image.open(path)
-    except:
-        return False, 'can not open image'
+    # try:
+    img = Image.open(path)
+    # except BaseException as err:
+    #     return False, 'can not open image:'.format(err)
     barcodeInfoList = pyzbar.decode(img)
     if barcodeInfoList != []:
         barcodeInfo = barcodeInfoList[0]
@@ -26,7 +27,7 @@ def getBarcode(path):
     else:
         return False, 'barcode not found'
 
-print("植物标本照片条码识别工具 Beta 0.0.4")
+print("植物标本照片条码识别工具 Beta 0.0.5")
 print("作者：陈天翔 chentx@ibcas.ac.cn 2020-11-19\n")
 
 print("选择待处理文件夹")
@@ -39,7 +40,7 @@ print("已选路径：", path)
 successCount = 0
 failedCount = 0
 
-log = open(os.path.join(path, 'log.txt'), 'a')
+log = open(os.path.join(path, 'log.txt'), 'a', encoding='utf-8')
 log.write('selected folder: ' + path + '\n')
 log.write('start at ' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + '\n\n')
 for root, directorys, files in os.walk(path):

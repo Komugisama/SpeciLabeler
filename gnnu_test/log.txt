@@ -1,0 +1,115 @@
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:38:39
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:40:05
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:42:44
+
+XYF011763.JPG : barcode not found
+XYF011817.JPG : barcode not found
+XYF011823.JPG : barcode not found
+XYF011825.JPG : barcode not found
+XYF011847.JPG : barcode not found
+XYF011877.JPG : barcode not found
+XYF011901.JPG : barcode not found
+XYF011902.JPG : barcode not found
+XYF011912.JPG : barcode not found
+XYF011944.JPG : barcode not found
+XYF011966.JPG : barcode not found
+XYF011969.JPG : barcode not found
+
+finished at 2020-12-30 10:43:02, 0 success, 12 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:47:34
+
+XYF011763-1.jpg : barcode not found
+XYF011763.JPG : barcode not found
+XYF011817.JPG : barcode not found
+XYF011823.JPG : barcode not found
+XYF011825.JPG : barcode not found
+XYF011847.JPG : barcode not found
+XYF011877.JPG : barcode not found
+XYF011901.JPG : barcode not found
+XYF011902.JPG : barcode not found
+XYF011912.JPG : barcode not found
+XYF011944.JPG : barcode not found
+XYF011966.JPG : barcode not found
+XYF011969.JPG : barcode not found
+
+finished at 2020-12-30 10:47:52, 0 success, 13 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:48:03
+
+XYF011763-1.jpg : 0245516.jpg
+XYF011763.JPG : XYF011763.JPG
+XYF011817.JPG : XYF011817.JPG
+XYF011823.JPG : XYF011823.JPG
+XYF011825.JPG : XYF011825.JPG
+XYF011847.JPG : XYF011847.JPG
+XYF011877.JPG : XYF011877.JPG
+XYF011901.JPG : XYF011901.JPG
+XYF011902.JPG : XYF011902.JPG
+XYF011912.JPG : XYF011912.JPG
+XYF011944.JPG : XYF011944.JPG
+XYF011966.JPG : XYF011966.JPG
+XYF011969.JPG : XYF011969.JPG
+
+finished at 2020-12-30 10:48:21, 13 success, 0 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:52:24
+
+0245516.jpg : barcode not found
+XYF011763.JPG : barcode not found
+XYF011817.JPG : barcode not found
+XYF011823.JPG : barcode not found
+XYF011825.JPG : barcode not found
+XYF011847.JPG : barcode not found
+XYF011877.JPG : barcode not found
+XYF011901.JPG : barcode not found
+XYF011902.JPG : barcode not found
+XYF011912.JPG : barcode not found
+XYF011944.JPG : barcode not found
+XYF011966.JPG : barcode not found
+XYF011969.JPG : barcode not found
+
+finished at 2020-12-30 10:52:43, 0 success, 13 failed
+
+
+
+
+selected folder: C:/Komugi/Projects/python/barcode_reader/gnnu_test
+start at 2020-12-30 10:53:09
+
+0245516.jpg : 0245516.jpg
+XYF011763.JPG : [WinError 183] 当文件已存在时，无法创建该文件。: 'C:/Komugi/Projects/python/barcode_reader/gnnu_test\\XYF011763.JPG' -> 'C:/Komugi/Projects/python/barcode_reader/gnnu_test\\0245516.JPG'
+XYF011817.JPG : 0245013.JPG
+XYF011823.JPG : 0245615.JPG
+XYF011825.JPG : 0245040.JPG
+XYF011847.JPG : 0245646.JPG
+XYF011877.JPG : 0245643.JPG
+XYF011901.JPG : 0245644.JPG
+XYF011902.JPG : 0244937.JPG
+XYF011912.JPG : 0244982.JPG
+XYF011944.JPG : 0244987.JPG
+XYF011966.JPG : 0245031.JPG
+XYF011969.JPG : 0245511.JPG
+
+finished at 2020-12-30 10:53:28, 12 success, 1 failed
+
+
+
+
