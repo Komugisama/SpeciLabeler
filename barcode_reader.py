@@ -17,12 +17,15 @@ def get_barcode(path, allowed_symbols, user_regex):
         img = Image.open(path)
         barcode_info_list = decode(img, symbols=allowed_symbols)
         if barcode_info_list:
-            barcodes = [barcode_info.data.decode(
-                "utf-8").replace(" ", "") for barcode_info in barcode_info_list]
+            barcodes = [
+                barcode_info.data.decode("utf-8").replace(" ", "")
+                for barcode_info in barcode_info_list
+            ]
             if user_regex:
                 pattern = re.compile(user_regex)
                 matched_barcodes = [
-                    barcode for barcode in barcodes if pattern.match(barcode)]
+                    barcode for barcode in barcodes if pattern.match(barcode)
+                ]
                 if matched_barcodes:
                     return True, matched_barcodes[0]
             return True, barcodes[0]
@@ -34,8 +37,12 @@ def get_barcode(path, allowed_symbols, user_regex):
 
 def process_images_in_folder(folder_path, user_regex):
     allowed_extensions = {".jpg", ".jpeg", ".png", ".gif", ".tif", ".tiff"}
-    allowed_symbols = [ZBarSymbol.CODE128, ZBarSymbol.CODE39,
-                       ZBarSymbol.CODE93, ZBarSymbol.CODABAR]
+    allowed_symbols = [
+        ZBarSymbol.CODE128,
+        ZBarSymbol.CODE39,
+        ZBarSymbol.CODE93,
+        ZBarSymbol.CODABAR,
+    ]
 
     success_count = 0
     failed_count = 0
@@ -46,7 +53,8 @@ def process_images_in_folder(folder_path, user_regex):
     with open(log_path, "a", encoding="utf-8") as log:
         log.write(f"selected folder: {folder_path}\n")
         log.write(
-            f"start at {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}\n\n")
+            f"start at {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())}\n\n"
+        )
 
         for root, directories, files in os.walk(folder_path):
             for file in files:
@@ -61,12 +69,12 @@ def process_images_in_folder(folder_path, user_regex):
                     if extension.lower() in allowed_extensions:
                         image_path = os.path.join(root, file)
                         status, info = get_barcode(
-                            image_path, allowed_symbols, user_regex)
+                            image_path, allowed_symbols, user_regex
+                        )
                         if status:
                             try:
                                 new_filename = info + extension
-                                os.rename(image_path, os.path.join(
-                                    root, new_filename))
+                                os.rename(image_path, os.path.join(root, new_filename))
                                 log_msg = f"{file} : {new_filename}"
                                 log.write(log_msg + "\n")
                                 success_count += 1
@@ -92,7 +100,7 @@ def process_images_in_folder(folder_path, user_regex):
 
 
 if __name__ == "__main__":
-    print("植物标本照片条码重命名工具 Beta 0.1.1")
+    print("植物标本照片条码重命名工具 v1.1.0")
     print("2023-10-18 国家植物标本资源库 chentx@ibcas.ac.cn\n")
 
     print("选择待处理文件夹")
