@@ -1,3 +1,11 @@
+<!--
+ * @Author: chentx
+ * @Date: 2022-11-18 00:38:21
+ * @LastEditTime: 2023-10-18 23:09:44
+ * @LastEditors: chentx
+ * @Description:
+-->
+
 # 植物标本条形码重命名工具 | SpeciLabeler
 
 [![License](https://img.shields.io/badge/license-MIT-teal.svg)](LICENSE) ![Python Version](https://img.shields.io/badge/Python-3.6,3.7,3.8,3.9,3.10-blue)
@@ -36,7 +44,7 @@ Rename plant specimens images with barcodes using [pyzbar](https://github.com/Na
 pip install pyzbar
 ```
 
-1. 运行 `SpeciLabeler.py` 脚本：
+2. 运行 `SpeciLabeler.py` 脚本：
 
    Run the `SpeciLabeler.py` script:
 
@@ -44,15 +52,15 @@ pip install pyzbar
 python SpeciLabeler.py
 ```
 
-1. 选择包含您要处理的标本图像文件夹
+3. 选择包含您要处理的标本图像文件夹
 
    Select the folder containing the plant specimen images you want to process.
 
-2. 输入正则表达式（可选）后，程序将自动重命名图像文件，并在对应文件夹下生成日志文件。
+4. 输入正则表达式（可选）后，程序将自动重命名图像文件，并在对应文件夹下生成日志文件。
 
    After providing an optional regular expression, SpeciLabeler will automatically rename image files and generate a log file in the respective folder.
 
-3. 您也可以直接下载并使用打包好的 [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/)，解压后运行 SpeciLabeler.exe 即可。
+5. 您也可以直接下载并使用打包好的 [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/)，解压后运行 SpeciLabeler.exe 即可。
 
    You can also download and directly use the pre-packaged [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/). After extracting it, run SpeciLabeler.exe.
 
