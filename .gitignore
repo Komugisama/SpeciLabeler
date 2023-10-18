@@ -12,3 +12,4 @@ gnnu_test/
 gnnu_reader.py
 gnnu_reader.spec
 log.txt
+.vscode
