@@ -1,7 +1,7 @@
 <!--
  * @Author: chentx
  * @Date: 2022-11-18 00:38:21
- * @LastEditTime: 2023-10-18 23:09:44
+ * @LastEditTime: 2023-10-18 23:10:49
  * @LastEditors: chentx
  * @Description:
 -->
@@ -60,9 +60,9 @@ python SpeciLabeler.py
 
    After providing an optional regular expression, SpeciLabeler will automatically rename image files and generate a log file in the respective folder.
 
-5. 您也可以直接下载并使用打包好的 [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/)，解压后运行 SpeciLabeler.exe 即可。
+5. 您也可以直接下载打包好的 [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/)，解压后运行 SpeciLabeler.exe 即可。
 
-   You can also download and directly use the pre-packaged [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/). After extracting it, run SpeciLabeler.exe.
+   You can also download the pre-packaged [SpeciLabeler.zip](https://github.com/Komugisama/SpeciLabeler/releases/). After extracting it, run SpeciLabeler.exe.
 
 ## 许可证 | License
 
