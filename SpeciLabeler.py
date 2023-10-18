@@ -100,7 +100,7 @@ def process_images_in_folder(folder_path, user_regex):
 
 
 if __name__ == "__main__":
-    print("植物标本照片条码重命名工具 v1.1.0")
+    print("植物标本条码重命名工具 | SpeciLabeler v1.1.0")
     print("2023-10-18 国家植物标本资源库 chentx@ibcas.ac.cn\n")
 
     print("选择待处理文件夹")
