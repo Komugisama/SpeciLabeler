@@ -1,9 +1,0 @@
-store/
-test/
-dist/
-build/
-__pycache__/
-barcode_reader.spec
-log.txt
-.vscode
-.gitignore
