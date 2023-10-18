@@ -1,4 +1,4 @@
-# 植物标本条形码重命名工具 | spm-bar-reader
+# 植物标本条形码重命名工具 | SpeciLabeler
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
@@ -8,9 +8,9 @@ Rename plant specimens images with barcodes using [pyzbar](https://github.com/Na
 
 ## 概述 | Description
 
-`spm-bar-reader` 是一个 Python 工具，通过从图像中提取条形码信息，简化了对植物标本图像文件的重命名过程。该工具利用 `pyzbar` 库来解码条形码，非常适合管理和组织植物标本图像的集合。
+`SpeciLabeler` 是一个 Python 工具，通过从图像中提取条形码信息，简化了对植物标本图像文件的重命名过程。该工具利用 `pyzbar` 库来解码条形码，非常适合管理和组织植物标本图像的集合。
 
-`spm-bar-reader` is a Python tool that simplifies the process of renaming image files of plant specimens by extracting barcode information from the images. This tool leverages the power of the `pyzbar` library to decode barcodes, making it ideal for managing and organizing collections of plant specimen images.
+`SpeciLabeler` is a Python tool that simplifies the process of renaming image files of plant specimens by extracting barcode information from the images. This tool leverages the power of the `pyzbar` library to decode barcodes, making it ideal for managing and organizing collections of plant specimen images.
 
 ## 特性 | Features
 
@@ -28,10 +28,10 @@ Rename plant specimens images with barcodes using [pyzbar](https://github.com/Na
 pip install pyzbar
 ```
 
-2. 运行 `barcode_reader.py` 脚本 | Run the `barcode_reader.py` script:
+2. 运行 `SpeciLabeler.py` 脚本 | Run the `SpeciLabeler.py` script:
 
 ```
-python barcode_reader.py
+python SpeciLabeler.py
 ```
 
 3. 选择包含您要处理的植物标本图像的文件夹 | Select the folder containing the plant specimen images you want to process.
@@ -46,9 +46,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 贡献 | Contribution
 
-Contributions are welcome! If you would like to contribute to the project, please fork the repository and submit a pull request.
-
 如果您想为项目做出贡献，欢迎建立分支并提交拉取请求！
+
+Contributions are welcome! If you would like to contribute to the project, please fork the repository and submit a pull request.
 
 ## 作者 | Author
 
@@ -56,4 +56,4 @@ Contributions are welcome! If you would like to contribute to the project, pleas
 
 ## 致谢 | Acknowledgments
 
-- [pyzbar](https://github.com/NaturalHistoryMuseum/pyzbar/): 用于条形码解码的库 The library used for barcode decoding.
+- [pyzbar](https://github.com/NaturalHistoryMuseum/pyzbar/): 用于条形码解码 | The library used for barcode decoding.
