@@ -100,8 +100,7 @@ def process_images_in_folder(folder_path, user_regex):
 
 
 if __name__ == "__main__":
-    print("植物标本条码重命名工具 | SpeciLabeler v1.1.0")
-    print("2023-10-18 国家植物标本资源库 chentx@ibcas.ac.cn\n")
+    print("SpeciLabeler | 植物标本条码重命名工具 v1.1.1")
 
     print("选择待处理文件夹")
     root = tk.Tk()
@@ -110,7 +109,7 @@ if __name__ == "__main__":
     path = filedialog.askdirectory()
     print("已选路径：", path)
 
-    user_regex = input("输入正则表达式 (用于精确匹配条形码，不使用正则请按Enter键跳过)：")
+    user_regex = input("输入正则表达式 (一副图像含多个条形码时，匹配特定格式的条形码，不使用正则请按Enter键跳过)：")
 
     process_images_in_folder(path, user_regex)
 
