@@ -74,7 +74,8 @@ def process_images_in_folder(folder_path, user_regex):
                         if status:
                             try:
                                 new_filename = info + extension
-                                os.rename(image_path, os.path.join(root, new_filename))
+                                os.rename(image_path, os.path.join(
+                                    root, new_filename))
                                 log_msg = f"{file} : {new_filename}"
                                 log.write(log_msg + "\n")
                                 success_count += 1
@@ -100,7 +101,7 @@ def process_images_in_folder(folder_path, user_regex):
 
 
 if __name__ == "__main__":
-    print("SpeciLabeler | 植物标本条码重命名工具 v1.1.1")
+    print("SpeciLabeler | 植物标本条码重命名工具 v1.1.2")
 
     print("选择待处理文件夹")
     root = tk.Tk()
@@ -109,7 +110,8 @@ if __name__ == "__main__":
     path = filedialog.askdirectory()
     print("已选路径：", path)
 
-    user_regex = input("输入正则表达式 (一副图像含多个条形码时，匹配特定格式的条形码，不使用正则请按Enter键跳过)：")
+    user_regex = input(
+        "输入正则表达式 (如一副图像含多个条形码/二维码时，使用正则表达式匹配特定条形码，如不使用请按Enter键跳过)：")
 
     process_images_in_folder(path, user_regex)
 
